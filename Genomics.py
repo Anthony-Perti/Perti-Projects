@@ -326,7 +326,3 @@ print(score)
 joblib.dump(model, "model.joblib")
 np.save("features_test.npy", features_test_scaled)
 
-- To download your files, locate the file icon on the left sidebar of the Colab interface. This opens the file browser.
-- Navigate to find the files you've just saved: `"model.joblib"` and `"features_test.npy"`.
-- Click on the three dots (`...`) next to each file name to open the context menu, and select "Download" to save the file to your computer.
-"""
